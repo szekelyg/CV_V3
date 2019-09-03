@@ -1,5 +1,5 @@
 body{
-   background-color: #d2fafb;
+   background-color: #e3fdfd;
    margin: 0;
    text-align: center;
    font-family: 'Merriweather', serif;
@@ -100,12 +100,15 @@ footer a:hover{
   background-color: #d2fafb;
   position: relative;
   padding-top: 50px;
+  z-index: 0;
 }
 
 .middle-container{
   background-color: #e3fdfd;
   padding-top: 100px;
-  padding-bottom: 100px;
+  position: relative;
+  top: -170px;
+  z-index: 2;
 }
 
 .bottom-container{      
@@ -127,7 +130,7 @@ footer a:hover{
 }
 
 .skill-row{
-  width: 50%;
+  width: 60%;
   margin: 20px auto;
   line-height: 2;
 }
